@@ -1,0 +1,35 @@
+#servicecontainer{
+    height: auto;
+    width: auto;
+    background: rgb(248, 245, 243);
+    padding: 2.5pc; 
+    border: 0px solid transparent;
+    border-radius: 1.6pc;
+    font-family: "Poppins";
+}
+#services{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#service1,#service2,#service3,#service4,#service5,
+#service6,#service7{
+    padding: 1.5pc;
+}
+#services>a{
+    font-family: "Poppins";
+    text-decoration: none;
+    color: black;
+}
+a>#service1>img,a>#service2>img,a>#service3>img,a>#service4>img,
+a>#service5>img,a>#service6>img,a>#service7>img{
+    height:18pc;
+    width: 18pc;
+    border-radius: 3px;
+}
+#service1:hover,#service2:hover,#service3:hover,#service4:hover,
+#service5:hover,#service6:hover,#service7:hover{
+    color: white;
+    background: linear-gradient(55deg,rgb(225,94,0),rgb(248, 180, 32));
+    border-radius: 3px;
+}

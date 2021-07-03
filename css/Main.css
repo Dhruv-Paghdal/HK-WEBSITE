@@ -1,0 +1,286 @@
+body{
+    margin: auto;
+    height: auto;
+    font-family:"Teko";
+}
+a{
+    text-decoration: none;
+}
+header{
+    background:linear-gradient(1800deg,rgba(0,0,0, 0.41),rgba(0,0,0,0.41)),url("../images/background4.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    margin: auto;
+    width: 100%;
+    height: 40pc;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    float: left;
+    padding: 0.1pc;
+    font-size: 5pc;
+    color: rgb(238, 99, 0);
+}
+#logo1{
+    display: flex;
+    align-items: center;
+    font-size: 2pc;
+    color: white;
+}
+nav>ul{
+    float: right;
+    display:flex;
+    flex-direction: row;
+    justify-self: right;
+    list-style-type: none;
+}
+nav>ul>li{
+    padding-top: 1.5pc;
+}
+nav>ul>li>a{
+    margin: 1pc;
+    padding: 0.65pc;
+    font-size: 1.30pc;
+    height: 2.5pc;
+    color: white;
+    border-radius: 3px;
+    font-family: 'Poppins';
+}
+nav>ul>li>a:hover{
+    background-color: rgba(238, 99, 0, 0.884);
+}
+#info{
+    padding: 3.5pc;
+    text-align: center;
+    color: white;
+}
+#info>h3{
+    font-weight: 600;
+    font-size: 2pc;
+    letter-spacing: 10px;
+    color: white;
+    /* animation: info 5s infinite; */
+}
+#info>h2{
+    font-size: 2pc;
+    color: rgb(255, 255, 255);
+    letter-spacing: 4px;
+    /* animation: info1 5s infinite; */
+}
+@keyframes info {
+    0%{
+        opacity: 0%;
+        letter-spacing: 0pc;
+        transform: translateY(0%);
+    }
+    50%{
+        opacity: 100%;
+        letter-spacing: 0.5pc;
+        transform: translateY(50%);
+    }  
+    100%{
+        opacity: 0%;
+        letter-spacing: 0pc;
+        transform: translateY(0%);
+    }  
+}
+@keyframes info1 {
+    0%{
+        opacity: 0%;
+        letter-spacing: 0pc;
+        transform: translateY(0%);
+    }
+    50%{
+        opacity: 100%;
+        letter-spacing: 0.15pc;
+        transform: translateY(50%);
+    }  
+    100%{
+        opacity: 0%;
+        letter-spacing: 0pc;
+        transform: translateY(0%);
+    }  
+}
+#info>a>button{
+    height: auto;
+    width: auto;
+    border: solid 0px transparent;
+    border-radius: 2pc;
+    padding: 1pc;
+    font-size: 1pc;
+    color: whitesmoke;
+    background: linear-gradient(55deg,rgb(238, 99, 0),rgb(248, 180, 32));
+}
+#info>a>button:hover{
+    background: whitesmoke;
+    color: rgb(238, 99, 0)
+}
+#glimps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background: rgb(248, 245, 243);
+    height: 15pc;
+    width: 40pc;
+    padding: 2pc;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 1pc;
+    font-family: "Poppins";
+}
+.container>i{
+    background-color: white;
+    padding: 2.5pc;
+    border-radius: 4pc;
+    color: rgb(238, 99, 0);
+    font-size: 2pc;
+}
+.container>h4{
+    font-size: 1.2pc;
+    font-weight:300;
+}
+.container:hover{
+    background: linear-gradient(55deg,rgb(225,94,0),rgb(248, 180, 32));
+    color: white;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#about>div{
+    padding-left: 1.5pc;
+    padding-right: 1.5pc;
+    padding-top:5pc;
+    padding-bottom:5pc;
+    background: linear-gradient(45deg,rgb(53,25,25),rgb(88, 10, 10));
+    border: 1px solid transparent;
+    border-radius: 2pc;
+    height: auto;
+    width: 40pc;
+    color: white;
+}
+#services{
+    display: flex;
+    flex-direction: row;
+}
+#servicedata{
+    padding: 1pc;
+    font-family: "Poppins";
+    color: black;
+}
+#servicedata:hover{
+    background: linear-gradient(55deg,rgb(225,94,0),rgb(248, 180, 32));
+    color: white;
+}
+#servicebutton>button{
+    height: auto;
+    width: auto;
+    border: solid 0px transparent;
+    border-radius: 2pc;
+    padding: 1pc;
+    font-size: 1pc;
+    color: whitesmoke;
+    background: linear-gradient(55deg,rgb(238, 99, 0),rgb(248, 180, 32));
+}
+#servicebutton>button:hover{   
+    background: whitesmoke;
+    color: rgb(238, 99, 0)
+}
+ #work{
+    background-color: rgb(248, 245, 243);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#workdata{
+    text-align: center;
+    padding: 1.5pc;
+    font-size: 2pc;
+    /* background-color: white; */
+}
+#workdata>i{
+    background: white;
+    padding: 2pc;
+    border: solid 1px rgb(238,99,0);
+    border-radius: 3pc;
+    color: rgb(238, 99, 0);
+    font-size: 2pc;
+}
+#workdata>i:hover{
+    background: linear-gradient(55deg,rgb(225,94,0),rgb(248, 180, 32)) ;
+    color: white;
+    border: solid 1px white;
+}
+#review{
+    font-family: "Poppins";
+    padding: 1pc;
+    text-align: center;
+}
+#customername{
+    font-family: "Teko";
+    font-size: 1.5pc;
+    font-weight: 600;
+}
+#customercompany{
+    font-family: "Poppins";
+    font-size: 0.9pc;
+    color: rgb(238, 99, 0);
+}
+#customerdata{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#customerpic{
+    height: 4pc ;
+    width: 4pc;
+    border-radius: 3pc;
+    border: solid 3px transparent;
+    /* margin-right: 2pc; */
+}
+#customerpic:hover{
+    border: solid 3px rgb(238, 99, 0);
+}
+#customername{
+    text-align: center;
+}
+#customercompany{
+    text-align: center;
+    color: rgb(238, 99, 0);
+}
+footer{
+    padding: 1pc;
+    background: linear-gradient(45deg,rgb(53,25,25),rgb(88, 10, 10));
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    color: white;
+}
+footer>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+footer>ul>li{
+    padding-right: 0pc;
+    margin-left: 0pc;
+}
+#copyright{
+    font-family: 'Poppins';
+    height: auto;
+    text-align: center;
+    padding: 0.5pc;
+    color: white;
+    background: rgb(37, 3, 3);
+}

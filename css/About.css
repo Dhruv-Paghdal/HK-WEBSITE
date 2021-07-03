@@ -1,0 +1,13 @@
+img{
+    float: right;
+    width: 10pc;
+    height: 10pc;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.2pc;
+    font-family: "Poppins";
+}
